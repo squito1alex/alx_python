@@ -5,5 +5,5 @@ def add (a, b):
     b = 2
     from add_0 import add
     result = add(a, b)
-    print(f"{a} + {b} = {result}")
+    print("{} + {} = {}".format(a, b, result))
 
